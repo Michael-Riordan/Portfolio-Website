@@ -1,2 +1,23 @@
+#about-body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/endless-constellation.svg');
+    height: 100vh;
+}
 
+#about-header {
+    margin-top: 10vh;
+}
+
+#about-header-content {
+    margin-top: 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#about-description {
+    font-size: 1.5rem;
+    padding: 50px;
+    font-weight: bold;
+}
 

@@ -18,8 +18,8 @@ export default function LandingPage() {
         <>
             <section id='landing-page'>
                 <header id='portfolio-header'>
-                    <h1 id='header-content'>Hello! My Name is Michael J. Riordan.</h1>
-                    <h2 id='header-content-2'>I'm a Full-Stack Developer, with Strong Front-End Expertise.</h2>
+                    <h1 id='header-content'>Michael J. Riordan</h1>
+                    <h2 id='header-content-2'>Full-Stack Developer, with Strong Front-End Expertise.</h2>
                 </header>
                 <section id='landing-page-body'>
                     <h1 id='skills-header'>Technology Proficiency</h1>
@@ -48,8 +48,8 @@ export default function LandingPage() {
                             </picture>
                             <p id='project-1-description'>      
                                 LR-mobilenotary.com is a comprehensive full-stack web application that seamlessly integrates React for the front end as well as an Express.js 
-                                server for the back end. The Express server effectively handles API calls, manages interactions with Amazon RDS to store appointment details and admin credentials, and 
-                                communicates with JSON files stored within an Amazon S3 bucket. This architecture enables effortless editing of business 
+                                server for the back end. The Express server effectively handles API calls, manages interactions with Amazon RDS to store appointment details and admin credentials
+                                within MySQL tables, and communicates with JSON files stored within an Amazon S3 bucket. This architecture enables effortless editing of business 
                                 hours, date blocking, and appointment management.
                             </p>
                         </div>
