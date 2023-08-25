@@ -1,0 +1,42 @@
+#portfolio-nav-bar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 100vw;
+    color: #242424;
+}
+
+#personal-logo {
+    margin: 10px;
+    border: 3px solid #242424;
+    padding: 5px;
+    text-align: center;
+    color: #242424;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#links {
+    display: flex;
+    width: max-content;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+#github-link {
+    align-self: center;
+    color: #242424;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-link {
+    display: flex;
+    align-self: center;
+    color: #242424;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    margin-right: 20px;
+}
