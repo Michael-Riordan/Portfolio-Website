@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-image: url('../assets/endless-constellation.svg');
-    height: 150vh;
+    height: max-content;
 }
 
 #about-header {
@@ -20,5 +20,12 @@
     padding: 15vw;
     padding-top: 0;
     font-weight: bold;
+}
+
+@media (orientation: portrait) {
+    
+    #about-description {
+        padding: 10vw;
+    }
 }
 

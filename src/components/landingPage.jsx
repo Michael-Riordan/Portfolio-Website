@@ -8,6 +8,7 @@ import nodeJSLogo from '../assets/icons8-node-js.svg'
 import githubLogo from '../assets/icons8-github.svg'
 import pythonLogo from '../assets/icons8-python.svg'
 import lrmobilenotaryHomepage from '../assets/lrmobilenotary-homepage-capture-1.webp'
+import { Link } from 'react-router-dom'
 
 export default function LandingPage() {
     const handleProjectClick = () => {

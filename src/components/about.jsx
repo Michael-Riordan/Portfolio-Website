@@ -6,31 +6,23 @@ export default function About() {
                 <header id='about-header'>
                     <h1 id='about-header-content'>Problem Solving. Resilience. Adaptability.</h1>
                     <p id='about-description'>
-                    My journey leading up to becoming a Software Developer has been a tapestry of diverse experiences 
-                    that have profoundly shaped my approach to problem-solving, resilience, and adaptability.
-                    <br/> <br/>
-                    
-                    From tackling the formidable challenges of the hospitality industry to 
-                    conquering the rugged terrains of the Pacific Crest Trail, 
-                    I've cultivated a knack for creative problem-solving. 
-                    With a backpack as my only companion and a tent as my shelter, 
-                    I navigated through uncertainty, making critical decisions that shaped my journey. 
-                    <br/> <br/>
-
-                    Further enhancing my resilience, I spent seven months traversing the vast expanse 
-                    of the US in a self-built camper van. Embracing the nomadic lifestyle, 
-                    I navigated diverse landscapes, weathered unexpected obstacles, and learned to adapt 
-                    to new environments with unwavering determination.
-                    <br/> <br/>
-
-                    This eclectic range of experiences has instilled in me a profound adaptability—an essential 
-                    trait in a field as dynamic as software development. 
-                    These experiences have taught me the value of staying resilient and adapting to new environments—an 
-                    invaluable trait in the dynamic field of software development.
-                    <br/> <br/>
-
-                    As I embark on my journey in the world of software, I am excited to leverage my unique experiences 
-                    to contribute to the success of the team and create meaningful contributions to the projects ahead.
+                        My path to becoming a Software Developer has been shaped by diverse experiences that have honed 
+                        my problem-solving skills, resilience, and adaptability—the very qualities that thrive in the world of coding.
+                        <br/> <br/>
+                        From navigating complex challenges in the hospitality industry to conquering demanding terrain on the Pacific Crest Trail, 
+                        I've cultivated a keen ability to approach intricate problems with creativity and innovation. Making pivotal decisions 
+                        while navigating with only a backpack and tent, I learned the art of crafting solutions under uncertainty.
+                        <br/><br/>
+                        I further fortified my resilience through seven months of traversing the United States in a camper van I built myself. 
+                        Adapting to diverse landscapes, overcoming unforeseen hurdles, and swiftly adjusting to new environments highlighted my 
+                        tenacity and resourcefulness.
+                        <br/><br/>
+                        These experiences have instilled in me a profound adaptability—an essential trait in the ever-evolving world of 
+                        software development. My journey has ingrained a proactive approach to addressing challenges, a skill I know will 
+                        be indispensable in programming.
+                        <br/><br/>
+                        As I embark on my software journey, I'm excited to leverage my distinct experiences to contribute to team 
+                        success and bring a fresh perspective to projects ahead.
                     </p>
                 </header>
             </section>
