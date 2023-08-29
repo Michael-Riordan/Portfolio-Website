@@ -6,13 +6,13 @@ import './css/NavBar.css'
 import './css/LandingPage.css'
 import'./css/about.css'
 
-import { createBrowserRouter as Routes, Route, BrowserRouter, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter as Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<NavBar />}>
-        <Route path="/" element={<LandingPage />}/>
+        <Route path="/" element={<LandingPage />} />
         <Route path='/About' element={<About />} />
       </Route>
     )
