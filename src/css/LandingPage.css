@@ -101,11 +101,11 @@
 }
 
 #projects-wrapper {
-    display: grid;
+    display: flex;
     width: max-content;
     align-self: center;
     margin-bottom: 10vh;
-    
+    gap: 10vw;
 }
 
 #project-1 {
@@ -124,7 +124,15 @@
 
 #lrmobilenotary-homepage {
     justify-self: center;
-    justify-items: center;
+    border: 3px solid black;
+    box-shadow: 2px 2px 10px 2px black;
+    cursor: pointer;
+}
+
+#wanderAmerica-homepage {
+    justify-self: center;
+    width: 300px;
+    height: 246px;
     border: 3px solid black;
     box-shadow: 2px 2px 10px 2px black;
     cursor: pointer;
@@ -141,9 +149,17 @@
     margin-bottom: 20px;
 }
 
+#github-link-wanderAmerica {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
 #project-1-description {
     align-self: center;
-    width: 35vmax;
+    text-align: center;
+    width: 30vmax;
     font-weight: bold;
 }
 

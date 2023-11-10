@@ -6,7 +6,7 @@ import './css/NavBar.css'
 import './css/LandingPage.css'
 import'./css/about.css'
 
-import { createBrowserRouter as Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
 
 function App() {
   const router = createBrowserRouter(
