@@ -12,11 +12,11 @@ import wanderAmericaHomepage from '../assets/Web_capture_10-11-2023_85140_wander
 
 export default function LandingPage() {
     const handleProject1Click = () => {
-        window.location.href = 'https://lr-mobilenotary.com/'
+        window.open('https://lr-mobilenotary.com/', '_blank');
     }
 
     const handleProject2Click = () => {
-        window.location.href = 'https://wanderamerica.netlify.app/'
+        window.open('https://wanderamerica.netlify.app/', '_blank');
     }
 
     return (
@@ -45,8 +45,8 @@ export default function LandingPage() {
                     <div id='projects-wrapper'>
                         <div id='project-1'>
                             <h2 id='project-1-header'>Mobile Notary Web Application</h2>
-                            <a href='https://github.com/Michael-Riordan/notary-web-app.git' id='github-link-lrmobilenotary'>GitHub Repository (Front End)</a>
-                            <a href='https://github.com/Michael-Riordan/Express-Server-For-Notary-Application.git' id='github-link-lrmobilenotary'>GitHub Repository (Back End)</a>
+                            <a href='https://github.com/Michael-Riordan/notary-web-app.git' id='github-link-lrmobilenotary' target='_blank'>GitHub Repository (Front End)</a>
+                            <a href='https://github.com/Michael-Riordan/Express-Server-For-Notary-Application.git' id='github-link-lrmobilenotary' target='_blank'>GitHub Repository (Back End)</a>
                             <picture id='lrmobilenotary-homepage-wrapper'>
                                 <source media="(min-width: 300px)"/> 
                                 <img src={lrmobilenotaryHomepage} id='lrmobilenotary-homepage' onClick={handleProject1Click} title='lr-mobilenotary.com'/> 
@@ -60,11 +60,11 @@ export default function LandingPage() {
                         </div>
                         <div id='project-1'>
                             <h2 id='project-1-header'> Wander America Web Application</h2>
-                            <a href='https://github.com/Michael-Riordan/NatPark-Application.git' id='github-link-lrmobilenotary'>GitHub Repository (Front End)</a>
-                            <a href='https://github.com/Michael-Riordan/NatPark-App-Express-Server.git' id='github-link-lrmobilenotary'>GitHub Repository (Back End)</a>
+                            <a href='https://github.com/Michael-Riordan/NatPark-Application.git' id='github-link-lrmobilenotary' target='_blank'>GitHub Repository (Front End)</a>
+                            <a href='https://github.com/Michael-Riordan/NatPark-App-Express-Server.git' id='github-link-lrmobilenotary' target='_blank'>GitHub Repository (Back End)</a>
                             <picture id='lrmobilenotary-homepage-wrapper'>
                                 <source media="(min-width: 300px)"/> 
-                                <img src={wanderAmericaHomepage} id='wanderAmerica-homepage' onClick={handleProject2Click} title='lr-mobilenotary.com'/> 
+                                <img src={wanderAmericaHomepage} id='wanderAmerica-homepage' onClick={handleProject2Click} title='wanderamerica.netlify.app'/> 
                             </picture>
                             <p id='project-1-description'>      
                                 Wander America is a comprehensive full-stack web application that seamlessly integrates React for the front end as well as an Express.js 

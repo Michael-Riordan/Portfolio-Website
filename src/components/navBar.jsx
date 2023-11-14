@@ -7,7 +7,7 @@ export default function NavBar() {
                 <Link to='/' id='personal-logo' >MJR</Link>
                 <div id='links'>
                     <Link to='/About' id='about-link'>About Me</Link>
-                    <a href="https://github.com/Michael-Riordan" id='github-link'>GitHub</a>
+                    <a href="https://github.com/Michael-Riordan" id='github-link' target='_blank'>GitHub</a>
                 </div>
             </nav>
             <Outlet />
