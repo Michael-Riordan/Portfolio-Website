@@ -67,11 +67,12 @@ export default function LandingPage() {
                                 <img src={wanderAmericaHomepage} id='wanderAmerica-homepage' onClick={handleProject2Click} title='wanderamerica.netlify.app'/> 
                             </picture>
                             <p id='project-1-description'>      
-                                Wander America is a comprehensive full-stack web application that seamlessly integrates React for the front end as well as an Express.js 
-                                server for the back end. The Express server effectively handles API calls to the National Park Government API. The website utilizes MapBox API to create
-                                an interactive map for the user to see all national parks in the U.S. The user is able to filter parks based off of activity, state, and search for national
-                                parks based off of name. After selecting a park, the selected park page will display activities available in the selected park, as well as a link to get directions to 
-                                heart of the park and visitor centers. On selection of a displayed activity, the activity page will display information about the selected activity.
+                                Wander America is a feature-rich web app using React for the front end and an Express.js server for the back end. 
+                                It seamlessly connects to the National Park Government API, providing users with an interactive map powered by MapBox. 
+                                The platform allows users to easily filter and search for national parks based on activities, states, and names.
+                                Once a park is selected, users can explore detailed information, including available activities and convenient 
+                                links for directions to key points and visitor centers. Wander America simplifies the process of discovering 
+                                and planning visits to U.S. national parks, offering a user-friendly experience for park enthusiasts.
                             </p>
                         </div>
                     </div>
